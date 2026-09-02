@@ -1,0 +1,45 @@
+{
+  "protocol": "participant_grouped_5fold_12_train_3_test",
+  "training_seed": 20260830,
+  "variant": "multigroup_mixup",
+  "folds": 5,
+  "file_count": 534,
+  "selected_epochs": [
+    32,
+    18,
+    12,
+    17,
+    20
+  ],
+  "participant_mean_accuracy": 0.3952056664959891,
+  "participant_mean_macro_f1": 0.33855669892615037,
+  "participant_mean_balanced_accuracy": 0.39755892255892256,
+  "pooled": {
+    "accuracy": 0.3951310861423221,
+    "balanced_accuracy": 0.39409810394447264,
+    "macro_f1": 0.37439264924044524,
+    "class_recall": [
+      0.329608938547486,
+      0.21022727272727273,
+      0.6424581005586593
+    ],
+    "confusion_matrix": [
+      [
+        59,
+        31,
+        89
+      ],
+      [
+        57,
+        37,
+        82
+      ],
+      [
+        36,
+        28,
+        115
+      ]
+    ],
+    "sample_count": 534
+  }
+}
